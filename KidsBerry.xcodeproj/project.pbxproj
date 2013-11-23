@@ -21,6 +21,7 @@
 		FFA95F991840B70D00874CFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA95F7B1840B70D00874CFB /* UIKit.framework */; };
 		FFA95FA11840B70D00874CFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFA95F9F1840B70D00874CFB /* InfoPlist.strings */; };
 		FFA95FA31840B70D00874CFB /* KidsBerryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA95FA21840B70D00874CFB /* KidsBerryTests.m */; };
+		FFA95FAD1840BFA300874CFB /* dropbox-ios-sync-sdk-2.0.3 in Resources */ = {isa = PBXBuildFile; fileRef = FFA95FAC1840BFA300874CFB /* dropbox-ios-sync-sdk-2.0.3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FFA95F9E1840B70D00874CFB /* KidsBerryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KidsBerryTests-Info.plist"; sourceTree = "<group>"; };
 		FFA95FA01840B70D00874CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFA95FA21840B70D00874CFB /* KidsBerryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidsBerryTests.m; sourceTree = "<group>"; };
+		FFA95FAC1840BFA300874CFB /* dropbox-ios-sync-sdk-2.0.3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "dropbox-ios-sync-sdk-2.0.3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		FFA95F6B1840B70D00874CFB = {
 			isa = PBXGroup;
 			children = (
+				FFA95FAC1840BFA300874CFB /* dropbox-ios-sync-sdk-2.0.3 */,
 				FFA95F7D1840B70D00874CFB /* KidsBerry */,
 				FFA95F9C1840B70D00874CFB /* KidsBerryTests */,
 				FFA95F761840B70D00874CFB /* Frameworks */,
@@ -231,6 +234,7 @@
 				FFA95F901840B70D00874CFB /* Images.xcassets in Resources */,
 				FFA95F821840B70D00874CFB /* InfoPlist.strings in Resources */,
 				FFA95F8B1840B70D00874CFB /* Main.storyboard in Resources */,
+				FFA95FAD1840BFA300874CFB /* dropbox-ios-sync-sdk-2.0.3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
